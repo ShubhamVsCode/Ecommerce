@@ -1,7 +1,13 @@
+import Banner from "@/components/core/banner";
+import CategoryHeader from "@/components/core/category-header";
+import TopDeals from "@/components/core/top-deals";
+
 export default function Home() {
   return (
-    <main className='flex justify-center py-20'>
-      <h1 className='text-3xl font-bold'>Home</h1>
+    <main className='px-2 xl:px-20 my-3'>
+      {/* <CategoryHeader /> */}
+      <Banner />
+      <TopDeals />
     </main>
   );
 }

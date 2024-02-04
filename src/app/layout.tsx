@@ -7,8 +7,8 @@ import Navbar from "@/components/core/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Stream Sphere",
-  description: "Stream Sphere",
+  title: "Ecommerce",
+  description: "Ecommerce",
 };
 
 export default function RootLayout({
