@@ -24,7 +24,7 @@ const TopDeals = async () => {
 
       <div className='grid md:grid-cols-3 xl:grid-cols-5 gap-5 mt-5'>
         {response.map((product) => (
-          <ProductCard product={product} />
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
     </div>
